@@ -1,0 +1,24 @@
+### GET request
+GET localhost:8085/api/employees
+Content-Type: application/json
+
+###
+POST localhost:8085/api/employees
+Content-Type: application/json
+
+{
+  "name": "Greg",
+  "role": "engineer"
+}
+
+### By ID
+GET localhost:8085/api/employees/<>
+Content-Type: application/json
+
+### By Role
+GET localhost:8085/api/employees/recent/role/engineer
+Content-Type: application/json
+
+### DELETE By Id
+DELETE localhost:8085/api/employees/<>
+Content-Type: application/json
